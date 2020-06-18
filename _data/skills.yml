@@ -1,0 +1,27 @@
+languages:
+  - item: JavaScript (ES6)
+  - item: Python
+  - item: HTML/CSS
+  - item: Go
+  - item: SQL
+
+frameworks:
+  - item: Django
+  - item: Flask
+  - item: Vue
+  - item: NodeJS
+  - item: Express
+
+tools:
+  - item: Git
+  - item: Elastic Search
+  - item: C|PouchDB
+  - item: Firebase
+  - item: Postman
+
+deployment:
+  - item: Google Cloud Platform
+  - item: Amazon Web Services
+  - item: Docker & Kubernetes
+  - item: Cloud Build CI/CD
+  - item: Container Registry

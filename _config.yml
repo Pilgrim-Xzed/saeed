@@ -1,0 +1,40 @@
+# Site settings
+name: Timothy Olaleke
+title: Timothy Olaleke | Software Engineer
+description: Timothy Olaleke is a highly motivated software developer with solid understanding of software development best practices. I'm also an open source hobbyist & a community mentor keen to change-makers.👨‍
+url: https://timtech4u.github.io
+baseurl: ""
+email: timothyolaleke@gmail.com
+keywords: timothy olaleke, engineer, software engineer, computer science, timtech4u
+cover: #
+logo: #
+resume: #
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/timtech4u
+  - title: twitter
+    url: https://twitter.com/fullstackgcp
+  - title: github
+    url: https://github.com/timtech4u
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "build"
+  - "gulpfile.js"
+  - "package.json"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+plugins:
+  - jekyll-minifier
+  - jekyll-sitemap
